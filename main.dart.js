@@ -18545,6 +18545,12 @@
     get$linkedin() {
       return A.throwExpression($.$get$_privateConstructorUsedError5());
     },
+    get$github() {
+      return A.throwExpression($.$get$_privateConstructorUsedError5());
+    },
+    get$bitbucket() {
+      return A.throwExpression($.$get$_privateConstructorUsedError5());
+    },
     toJson$0() {
       return A.throwExpression($.$get$_privateConstructorUsedError5());
     }
@@ -18601,6 +18607,12 @@
     },
     get$linkedin() {
       return this.linkedin;
+    },
+    get$github() {
+      return this.github;
+    },
+    get$bitbucket() {
+      return this.bitbucket;
     }
   };
   A._ContactData_Object__$ContactData.prototype = {};
@@ -20086,10 +20098,10 @@
                 t7 = t3.get$linkedin();
                 t7 = A.a(t6, A._setArrayType(["waves-effect", "waves-lime", "btn-flat"], t2), t7, null);
                 t6 = A._setArrayType([A.i(A._setArrayType([], t4), A._setArrayType(["small social-github"], t2), null), A.span(A._setArrayType([new A.Text(" GitHub", false, null)], t4), A._setArrayType(["no-text-transform hide-on-small-only"], t2), null, null)], t4);
-                t8 = t3.get$linkedin();
+                t8 = t3.get$github();
                 t8 = A.a(t6, A._setArrayType(["waves-effect", "waves-lime", "btn-flat"], t2), t8, null);
                 t6 = A._setArrayType([A.i(A._setArrayType([], t4), A._setArrayType(["small social-bitbucket"], t2), null), A.span(A._setArrayType([new A.Text(" Bitbucket", false, null)], t4), A._setArrayType(["no-text-transform hide-on-small-only"], t2), null, null)], t4);
-                t3 = t3.get$linkedin();
+                t3 = t3.get$bitbucket();
                 t9 = type$.MappedListIterable_Component_Component;
                 $async$goto = 4;
                 return A.SimpleListItem$(t5, A.div(A.List_List$of(new A.MappedListIterable(A._setArrayType([t7, t8, A.a(t6, A._setArrayType(["waves-effect", "waves-lime", "btn-flat"], t2), t3, null)], t4), type$.Component_Function_Component._as(new A.ContactData_build____closure()), t9), true, t9._eval$1("ListIterable.E")), A._setArrayType(["row"], t2), null), new A.Text("public", false, null), t1);
