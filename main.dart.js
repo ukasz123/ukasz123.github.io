@@ -18223,17 +18223,10 @@
                 return new A.Text(t1.text, false, null);
               case 3:
                 // after yield
-                t1 = t1.content;
-                $async$goto = t1 != null ? 4 : 5;
-                break;
+                $async$goto = 4;
+                return t1.content;
               case 4:
-                // then
-                $async$goto = 6;
-                return t1;
-              case 6:
                 // after yield
-              case 5:
-                // join
                 // implicit return
                 return A._IterationMarker_endOfIteration();
               case 1:
@@ -18539,6 +18532,9 @@
   };
   A.ContactData0.prototype = {};
   A._$ContactData.prototype = {
+    get$name(_) {
+      return A.throwExpression($.$get$_privateConstructorUsedError5());
+    },
     get$address() {
       return A.throwExpression($.$get$_privateConstructorUsedError5());
     },
@@ -18602,6 +18598,9 @@
       return A.LinkedHashMap_LinkedHashMap$_literal(["name", _this.name, "address", _this.address, "linkedin", _this.linkedin, "github", _this.github, "bitbucket", _this.bitbucket], type$.String, type$.dynamic);
     },
     $isContactData0: 1,
+    get$name(receiver) {
+      return this.name;
+    },
     get$address() {
       return this.address;
     },
@@ -20068,7 +20067,7 @@
       var $async$self = this;
       return A._makeSyncStarIterable(function() {
         var context = $async$context;
-        var $async$goto = 0, $async$handler = 1, $async$currentError, t3, t4, t5, t6, t7, t8, t9, t1, t2;
+        var $async$goto = 0, $async$handler = 1, $async$currentError, t6, t7, t8, t9, t1, t2, t3, t4, t5;
         return function $async$call$1($async$errorCode, $async$result) {
           if ($async$errorCode === 1) {
             $async$currentError = $async$result;
@@ -20080,31 +20079,32 @@
                 // Function start
                 t1 = A.I18nContextExtension_i18n(context, "nameAndSurname");
                 t2 = type$.JSArray_String;
+                t3 = A.img(A._setArrayType(["circle", "responsive-img"], t2), "public/images/profile_photo.jpg");
+                t4 = $async$self.data;
+                t5 = type$.JSArray_Component;
                 $async$goto = 2;
-                return A.ListItem$(null, null, A.img(A._setArrayType(["circle", "responsive-img"], t2), "public/images/profile_photo.jpg"), t1);
+                return A.ListItem$(null, A.p(A._setArrayType([new A.Text(t4.get$name(t4), false, null)], t5), null), t3, t1);
               case 2:
                 // after yield
                 t1 = A.I18nContextExtension_i18n(context, "address");
-                t3 = $async$self.data;
-                t4 = type$.JSArray_Component;
-                t5 = A.p(A._setArrayType([new A.Text(t3.get$address(), false, null)], t4), null);
+                t3 = A.p(A._setArrayType([new A.Text(t4.get$address(), false, null)], t5), null);
                 $async$goto = 3;
-                return A.SimpleListItem$(A._setArrayType(["indigo"], t2), t5, new A.Text("place", false, null), t1);
+                return A.SimpleListItem$(A._setArrayType(["cyan", "lighten-2"], t2), t3, new A.Text("place", false, null), t1);
               case 3:
                 // after yield
                 t1 = A.I18nContextExtension_i18n(context, "social");
-                t5 = A._setArrayType(["lime-darken"], t2);
-                t6 = A._setArrayType([A.i(A._setArrayType([], t4), A._setArrayType(["small social-linkedin"], t2), null), A.span(A._setArrayType([new A.Text(" LinkedIn", false, null)], t4), A._setArrayType(["no-text-transform hide-on-small-only"], t2), null, null)], t4);
-                t7 = t3.get$linkedin();
+                t3 = A._setArrayType(["teal", "lighten-2"], t2);
+                t6 = A._setArrayType([A.i(A._setArrayType([], t5), A._setArrayType(["small social-linkedin"], t2), null), A.span(A._setArrayType([new A.Text(" LinkedIn", false, null)], t5), A._setArrayType(["no-text-transform hide-on-small-only"], t2), null, null)], t5);
+                t7 = t4.get$linkedin();
                 t7 = A.a(t6, A._setArrayType(["waves-effect", "waves-lime", "btn-flat"], t2), t7, null);
-                t6 = A._setArrayType([A.i(A._setArrayType([], t4), A._setArrayType(["small social-github"], t2), null), A.span(A._setArrayType([new A.Text(" GitHub", false, null)], t4), A._setArrayType(["no-text-transform hide-on-small-only"], t2), null, null)], t4);
-                t8 = t3.get$github();
+                t6 = A._setArrayType([A.i(A._setArrayType([], t5), A._setArrayType(["small social-github"], t2), null), A.span(A._setArrayType([new A.Text(" GitHub", false, null)], t5), A._setArrayType(["no-text-transform hide-on-small-only"], t2), null, null)], t5);
+                t8 = t4.get$github();
                 t8 = A.a(t6, A._setArrayType(["waves-effect", "waves-lime", "btn-flat"], t2), t8, null);
-                t6 = A._setArrayType([A.i(A._setArrayType([], t4), A._setArrayType(["small social-bitbucket"], t2), null), A.span(A._setArrayType([new A.Text(" Bitbucket", false, null)], t4), A._setArrayType(["no-text-transform hide-on-small-only"], t2), null, null)], t4);
-                t3 = t3.get$bitbucket();
+                t6 = A._setArrayType([A.i(A._setArrayType([], t5), A._setArrayType(["small social-bitbucket"], t2), null), A.span(A._setArrayType([new A.Text(" Bitbucket", false, null)], t5), A._setArrayType(["no-text-transform hide-on-small-only"], t2), null, null)], t5);
+                t4 = t4.get$bitbucket();
                 t9 = type$.MappedListIterable_Component_Component;
                 $async$goto = 4;
-                return A.SimpleListItem$(t5, A.div(A.List_List$of(new A.MappedListIterable(A._setArrayType([t7, t8, A.a(t6, A._setArrayType(["waves-effect", "waves-lime", "btn-flat"], t2), t3, null)], t4), type$.Component_Function_Component._as(new A.ContactData_build____closure()), t9), true, t9._eval$1("ListIterable.E")), A._setArrayType(["row"], t2), null), new A.Text("public", false, null), t1);
+                return A.SimpleListItem$(t3, A.div(A.List_List$of(new A.MappedListIterable(A._setArrayType([t7, t8, A.a(t6, A._setArrayType(["waves-effect", "waves-lime", "btn-flat"], t2), t4, null)], t5), type$.Component_Function_Component._as(new A.ContactData_build____closure()), t9), true, t9._eval$1("ListIterable.E")), A._setArrayType(["row"], t2), null), new A.Text("public", false, null), t1);
               case 4:
                 // after yield
                 // implicit return
