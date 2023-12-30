@@ -4,7 +4,7 @@
       "title": "Dalton Timer",
       "description": "The timer inspired by the tool for the Dalton method. Helps children understand time passing.",
       "repositoryUrl": "https://bitbucket.org/ukasz123/dalton_timer/src/master/",
-      "imageUrl": "images/dalton_timer.png",
+      "imageUrl": "public/images/dalton_timer.png",
       "skills": ["flutter"],
       "deploymentUrls": [
         {
@@ -32,7 +32,7 @@
     {
       "title": "Present - book catalogue",
       "description": "The customized online book catalogue. The main goal was to show book photos in customized way.",
-      "imageUrl": "images/present-catalogue.png",
+      "imageUrl": "public/images/present-catalogue.png",
       "skills": ["flutter", "dart", "nodejs", "javascript"],
       "deploymentUrls": [
         {
@@ -64,7 +64,7 @@
       "description": "Plugin for Flutter that provides FairBid SDK - the advertisement mediation platform.",
       "repositoryUrl": "https://github.com/ukasz123/fairbid_flutter",
       "skills": ["flutter", "android", "ios"],
-      "imageUrl": "images/fairbid_flutter_github_logo.svg",
+      "imageUrl": "public/images/fairbid_flutter_github_logo.svg",
       "deploymentUrls": [
         {
           "type": "WEBSITE",
@@ -76,7 +76,7 @@
       "title": "Deep Translator",
       "description": "Multilingual online and offline mobile translator using various available APIs. Also it has an optical text recognition function.",
       "skills": ["flutter", "android", "kotlin", "javascript"],
-      "imageUrl": "images/deep_translator.png",
+      "imageUrl": "public/images/deep_translator.png",
       "deploymentUrls": [
         {
           "type": "GOOGLE_PLAY",
@@ -89,7 +89,7 @@
       "description": "The main reason to make own CV website was to avoid troublesome updates to PDF CV's version. Thanks to having it as a template I can easily add new infomation whenever I want. Also I have found it a good opportunity to check if Kotlin may be right choice for building web applications. Additionally, I've added PDF generator as a side project and embedded it as a downloadable file on the page. When the React Kotlin App stopped building the project, I decided to rewrite the project using Dart and the jaspr library.",
       "repositoryUrl": "https://github.com/ukasz123/cv-app-base/src/master/",
       "skills": ["dart", "kotlin", "html5", "css3"],
-      "imageUrl": "images/cv_shot.png"
+      "imageUrl": "public/images/cv_shot.png"
     },
     {
       "title": "Matrix Code Clock",
