@@ -13,8 +13,10 @@
 	"projects": "Projekty",
 	"now": "dzisiaj",
 	"cvTitle": "CV Łukasza Huculaka",
+	"downloadCV":"Pobierz CV",
 	"social": "Moje miejsca",
 	"otherProjects": "Inne projekty",
 	"repositoryUrl": "Źródła",
-	"seeMore": "Zobacz również"
+	"seeMore": "Zobacz również",
+	"technologies": "Technologie"
 }
