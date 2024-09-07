@@ -17,13 +17,13 @@
       "name": "Android",
       "primary": true,
       "icon": "android",
-      "level": 6
+      "level": 5
     },
     {
       "name": "Rust",
       "primary": true,
       "icon": "rust",
-      "level": 4
+      "level": 5
     },
     {
       "name": "Git",
