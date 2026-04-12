@@ -4,25 +4,15 @@
       "code": "Simpleclub",
       "name": "Education app",
       "from": "2021-08",
-      "skillsUsed": [
-        "flutter",
-        "dart",
-        "git"
-      ],
-      "company": "Exadel (former Codete)"
+      "skillsUsed": ["flutter", "dart", "git"],
+      "company": "Exadel"
     },
     {
       "code": "Codeclusive",
       "name": "Flutter development",
       "from": "2020-11",
       "to": "2021-07",
-      "skillsUsed": [
-        "flutter",
-        "dart",
-        "git",
-        "android",
-        "ios"
-      ],
+      "skillsUsed": ["flutter", "dart", "git", "android", "ios"],
       "company": "Codeclusive"
     },
     {
@@ -30,11 +20,7 @@
       "name": "Mobile Advertisements Mediation SDK",
       "from": "2018-06",
       "to": "2020-10",
-      "skillsUsed": [
-        "android",
-        "java",
-        "git"
-      ],
+      "skillsUsed": ["android", "java", "git"],
       "company": "Codete"
     },
     {
@@ -42,12 +28,7 @@
       "name": "Learning Flutter",
       "from": "2018-04",
       "to": "2018-05",
-      "skillsUsed": [
-        "flutter",
-        "dart",
-        "android",
-        "ios"
-      ],
+      "skillsUsed": ["flutter", "dart", "android", "ios"],
       "company": "Codete"
     },
     {
@@ -55,12 +36,7 @@
       "name": "Healthcare App",
       "from": "2018-03",
       "to": "2018-03",
-      "skillsUsed": [
-        "android",
-        "kotlin",
-        "rxjava",
-        "git"
-      ],
+      "skillsUsed": ["android", "kotlin", "rxjava", "git"],
       "company": "Codete"
     },
     {
@@ -76,13 +52,7 @@
       "name": "Social app",
       "from": "2017-10",
       "to": "2018-01",
-      "skillsUsed": [
-        "android",
-        "kotlin",
-        "rxjava",
-        "git",
-        "gradle"
-      ],
+      "skillsUsed": ["android", "kotlin", "rxjava", "git", "gradle"],
       "company": "Codete"
     },
     {
@@ -90,13 +60,7 @@
       "name": "Activate POS",
       "from": "2017-02",
       "to": "2017-09",
-      "skillsUsed": [
-        "android",
-        "kotlin",
-        "rxjava",
-        "git",
-        "gradle"
-      ],
+      "skillsUsed": ["android", "kotlin", "rxjava", "git", "gradle"],
       "company": "Appdate"
     },
     {
@@ -104,11 +68,7 @@
       "name": "Activate Mobile Ordering SDK",
       "from": "2017-01",
       "to": "2016-04",
-      "skillsUsed": [
-        "android",
-        "git",
-        "gradle"
-      ],
+      "skillsUsed": ["android", "git", "gradle"],
       "company": "Appdate"
     },
     {
@@ -116,12 +76,7 @@
       "name": "Motorola Push-To-Talk",
       "from": "2015-06",
       "to": "2016-03",
-      "skillsUsed": [
-        "android",
-        "git",
-        "gradle",
-        "cplusplus"
-      ],
+      "skillsUsed": ["android", "git", "gradle", "cplusplus"],
       "company": "Motorola Solutions"
     },
     {
@@ -129,10 +84,7 @@
       "name": "Comarch Smart Finance",
       "from": "2014-04",
       "to": "2015-05",
-      "skillsUsed": [
-        "android",
-        "maven"
-      ],
+      "skillsUsed": ["android", "maven"],
       "company": "ComArch"
     },
     {
@@ -140,10 +92,7 @@
       "name": "Alior BLIK",
       "from": "2014-02",
       "to": "2014-04",
-      "skillsUsed": [
-        "android",
-        "maven"
-      ],
+      "skillsUsed": ["android", "maven"],
       "company": "ComArch"
     },
     {
@@ -151,9 +100,7 @@
       "name": "Banque Populaire des Alpes",
       "from": "2013-10",
       "to": "2014-02",
-      "skillsUsed": [
-        "java", "angular", "javascript", "html5", "bootstrap"
-      ],
+      "skillsUsed": ["java", "angular", "javascript", "html5", "bootstrap"],
       "company": "ComArch"
     },
     {
@@ -161,12 +108,7 @@
       "name": "Comarch Smart Finance (R&D)",
       "from": "2013-05",
       "to": "2013-09",
-      "skillsUsed": [
-        "android",
-        "maven",
-        "java",
-        "google"
-      ],
+      "skillsUsed": ["android", "maven", "java", "google"],
       "company": "ComArch"
     },
     {
@@ -174,11 +116,7 @@
       "name": "BNP Paribas Mobile Pl@anet",
       "from": "2012-12",
       "to": "2013-04",
-      "skillsUsed": [
-        "android",
-        "maven",
-        "java"
-      ],
+      "skillsUsed": ["android", "maven", "java"],
       "company": "ComArch"
     },
     {
@@ -186,10 +124,7 @@
       "name": "Alior Mobile Banking",
       "from": "2012-08",
       "to": "2012-12",
-      "skillsUsed": [
-        "android",
-        "maven"
-      ],
+      "skillsUsed": ["android", "maven"],
       "company": "ComArch"
     }
   ]

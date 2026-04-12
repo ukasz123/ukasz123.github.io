@@ -22,6 +22,7 @@
       "description": "Plugin for Flutter inspired by Sound Pool API for Android. The goal of this plugin is to provide a way for caching sounds in memory before playing.",
       "repositoryUrl": "https://github.com/ukasz123/soundpool",
       "skills": ["flutter", "android", "ios", "dart"],
+      "unmantained": true,
       "deploymentUrls": [
         {
           "type": "WEBSITE",
@@ -43,8 +44,8 @@
     },
     {
       "title": "Home web console",
-      "description": "Custom application running on Raspberry Pi that provides access to status of my home.",
-      "skills": ["rust", "flutter", "dart"],
+      "description": "Custom application running on Raspberry Pi that provides access to status of my home. It's also used to experiment with building different backend endpoints.",
+      "skills": ["rust", "dart"],
       "deploymentUrls": [
         {
           "type": "WEBSITE",
@@ -54,7 +55,7 @@
     },
     {
       "title": "My Drive",
-      "description": "File hosting service. The aim was to verify the feasibility of building a web application without JavaScript using the HTMX library. The service allows browsing, downloading and sharing of files. Installed and running on a Raspberry Pi.",
+      "description": "File hosting service. The aim was to verify the feasibility of building a web application without JavaScript using the HTMX library. The service allows browsing, downloading and sharing of files. Installed and running on my Raspberry Pi.",
       "skills": ["rust", "html5"],
       "imageUrl": "public/images/my-drive.png",
       "repositoryUrl": "https://github.com/ukasz123/my-drive"
@@ -65,6 +66,7 @@
       "repositoryUrl": "https://github.com/ukasz123/fairbid_flutter",
       "skills": ["flutter", "android", "ios"],
       "imageUrl": "public/images/fairbid_flutter_github_logo.svg",
+      "unmantained": true,
       "deploymentUrls": [
         {
           "type": "WEBSITE",
@@ -76,7 +78,8 @@
       "title": "Deep Translator",
       "description": "Multilingual online and offline mobile translator using various available APIs. Also it has an optical text recognition function.",
       "skills": ["flutter", "android", "kotlin", "javascript"],
-      "imageUrl": "public/images/deep_translator.png"
+      "imageUrl": "public/images/deep_translator.png",
+      "unmantained": true
     },
     {
       "title": "HTML CV template",
@@ -91,6 +94,7 @@
       "repositoryUrl": "https://github.com/ukasz123/matrix_clock",
       "skills": ["flutter"],
       "imageUrl": "https://github.com/ukasz123/matrix_clock/raw/master/screenshots/clock.png",
+      "unmantained": true,
       "deploymentUrls": [
         {
           "type": "WEBSITE",

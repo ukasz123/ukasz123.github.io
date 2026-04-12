@@ -22,6 +22,7 @@
       "description": "Plugin dla Fluttera inspirowany API Sound Pool dla Android-a. \nCelem było stworzenie możliwości ładowania plików dżwiękowych do pamięci, co przyspieszy odtwarzanie.",
       "repositoryUrl": "https://github.com/ukasz123/soundpool",
       "skills": ["flutter", "android", "ios", "dart"],
+      "unmantained": true,
       "deploymentUrls": [
         {
           "type": "WEBSITE",
@@ -43,8 +44,8 @@
     },
     {
       "title": "Konsola internetowa domu",
-      "description": "Aplikacja webowa działająca na Raspberry Pi umożliwiająca dostęp do aktualnego stanu domu.",
-      "skills": ["rust", "flutter", "dart"],
+      "description": "Aplikacja webowa działająca na Raspberry Pi umożliwiająca dostęp do aktualnego stanu domu. Wykorzystywana również jako miejsce do eksperymentalnych implementacji serwisów.",
+      "skills": ["rust", "dart"],
       "deploymentUrls": [
         {
           "type": "WEBSITE",
@@ -65,6 +66,7 @@
       "repositoryUrl": "https://github.com/ukasz123/fairbid_flutter",
       "skills": ["flutter", "android", "ios"],
       "imageUrl": "public/images/fairbid_flutter_github_logo.svg",
+      "unmantained": true,
       "deploymentUrls": [
         {
           "type": "WEBSITE",
@@ -76,6 +78,7 @@
       "title": "Deep Translator",
       "description": "Wielojęzykowy tłumacz mobilny online i offline wykorzystujący wiele różnych dostępnych API. Posiada funkcję rozpoznawania tekstu z obrazu.",
       "skills": ["flutter", "android", "kotlin", "javascript"],
+      "unmantained": true,
       "imageUrl": "public/images/deep_translator.png"
     },
     {
@@ -90,6 +93,7 @@
       "description": "Projekt przeznaczony na \"Flutter Clock Challenge\" - zegar elektroniczny wyświetlający godzinę na tle inspirowanym \"spadającym kodem\" znanym z serii filmów \"Matrix\".",
       "repositoryUrl": "https://github.com/ukasz123/matrix_clock",
       "skills": ["flutter"],
+      "unmantained": true,
       "imageUrl": "https://github.com/ukasz123/matrix_clock/raw/master/screenshots/clock.png",
       "deploymentUrls": [
         {
